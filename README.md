@@ -65,6 +65,3 @@ npm install
 npm start
 ```
 
----
-
-Now your **ERP Application** is up and running locally! 🚀

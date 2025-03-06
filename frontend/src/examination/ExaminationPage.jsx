@@ -10,7 +10,7 @@ export default function ExaminationPage() {
                 className="mt-4 px-4 py-2 bg-blue-500 text-white rounded"
                 onClick={() => navigate("/examdashboard")}
             >
-                Go to Exam Dashboard
+                Go to Exam Dashboard and get your code clean and BKL CSE HACKATHON laura 
             </button>
         </div>
     );

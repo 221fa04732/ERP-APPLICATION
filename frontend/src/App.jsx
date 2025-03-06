@@ -7,8 +7,12 @@ const Home = lazy(()=> import("./component/Content"))
 import Footer from "./component/Footer";
 
 
+
 // Examination Page
 const ExaminationPage = lazy(() => import("./examination/ExaminationPage"));
+
+const ExamDashboard = lazy(() => import("./examination/ExamDashboard"));
+
 
 
 
@@ -47,6 +51,7 @@ const TransportPage = lazy(()=> import('./transport/TransportPage'))
 
 
 
+
 function App() {
 
   return (<div>
@@ -58,6 +63,8 @@ function App() {
 
           {/* examination */}
           <Route path="/examinationPage" element={<ExaminationPage />} />
+          <Route path="/examdashboard" element={<ExamDashboard />} />
+
 
 
 

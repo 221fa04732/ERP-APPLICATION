@@ -65,5 +65,3 @@ npm install
 npm start
 ```
 
----
-
